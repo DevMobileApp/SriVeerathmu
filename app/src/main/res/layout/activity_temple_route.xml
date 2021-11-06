@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TempleRoute"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/t8"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:onClick="sriveerathmu"
+        android:background="@drawable/linear_layout_border_shadow"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/t9"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:onClick="srisantharamurthi"
+        android:background="@drawable/linear_layout_border_shadow"
+        android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        ads:adSize="BANNER"
+        android:layout_above="@+id/scr"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        ads:adUnitId="@string/Admob_Banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

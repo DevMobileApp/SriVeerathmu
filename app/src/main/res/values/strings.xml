@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ஸ்ரீ வீரதிம்மு அம்மன்</string>
+
+    <string name="Admob_Banner_id">ca-app-pub-5664025156683633/1565526949</string>
+
+<!--  vss account :  ca-app-pub-5664025156683633/1404228505-->
+
+<!--        Apprentalhouse account :    ca-app-pub-9539334122975407/2224671377-->
+
+<!--   test key   :  ca-app-pub-3940256099942544/6300978111-->
+
+
+
+    <string name="t1">கோவில் திருவிழாக்கள் </string>
+    <string name="t2">நன்கொடை வங்கி தகவல்கள்</string>
+
+    <string name="t3">தொடர்பு எண்கள்</string>
+
+    <string name="t4">முக்கிய அறிவிப்புகள்</string>
+
+    <string name="t5">கோவில் புகைப்படங்கள்</string>
+
+    <string name="t6">கோவில் செல்லும் வழி</string>
+
+    <string name="t7">ஸ்ரீ சந்தான மூர்த்தி கோவில் தகவல்கள்</string>
+
+    <string name="t8">ஸ்ரீ வீரதிம்மு அம்மன் கோவில்  செல்லும் வழி</string>
+
+    <string name="t9">ஸ்ரீ சந்தான மூர்த்தி கோவில் செல்லும் வழி</string>
+
+
+    <string name="t10">ஸ்ரீ வீரதிம்மு அம்மன் கோவில் புகைப்படங்கள்</string>
+
+    <string name="t11">ஸ்ரீ சந்தான மூர்த்தி கோவில் புகைப்படங்கள்</string>
+
+
+</resources>

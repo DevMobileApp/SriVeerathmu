@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/t1"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="Notice"
+            android:background="@drawable/linear_layout_border_shadow"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/santhanamurithi_em"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/t7"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="santhanamurithi_em"
+            android:background="@drawable/linear_layout_border_shadow"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/t2"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="BankDetail"
+            android:background="@drawable/linear_layout_border_shadow"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/id1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/t3"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="Contact_veerathmu"
+            android:background="@drawable/linear_layout_border_shadow"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/t5"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="TemplePhotos"
+            android:background="@drawable/linear_layout_border_shadow"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/t6"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="googlemap"
+            android:background="@drawable/linear_layout_border_shadow"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/scr"
+        android:text="முக்கிய அறிவிப்புகள் முக்கிய அறிவிப்புகள்  முக்கிய அறிவிப்புகள்  முக்கிய அறிவிப்புகள்"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E8EC07"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:onClick="ImportantNew"/>
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        ads:adSize="BANNER"
+        android:layout_above="@+id/scr"
+        android:layout_marginBottom="10dp"
+        ads:adUnitId="@string/Admob_Banner_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

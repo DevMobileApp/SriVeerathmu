@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sriveerathmu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SriVeerathmu">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5664025156683633~9172185692" />
+
+<!--     vss acount :    ca-app-pub-5664025156683633~1595800191-->
+
+<!--        Apprentalhouse account : ca-app-pub-9539334122975407~6163916388  -->
+
+        <activity android:name=".TemplePhotos"></activity>
+        <activity android:name=".TempleRoute" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Notice" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
